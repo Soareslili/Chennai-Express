@@ -1,0 +1,77 @@
+{
+  "success": true,
+  "products": [
+    {
+      "productId": "1",
+      "name": "Frango Biryani",
+      "description": "Prato saboroso de frango e arroz que inclui camadas de frango, arroz e ingredientes aromáticos cozidos no vapor.",
+      "image": "/img/FrangoBiryani.png",
+      "price": 13.99,
+      "category": "Frango"
+    },
+    {
+      "productId": "2",
+      "name": "Frango Manteiga",
+      "description": "Um curry suave e cremoso à base de tomate com pedaços de frango marinado e cozido em manteiga.",
+      "image": "/img/FrangoManteiga.png",
+      "price": 15.99,
+      "category": "Frango"
+    },
+    {
+      "productId": "3",
+      "name": "Frango Masala",
+      "description": "Um prato indiano de frango assado na brasa, cozido com um delicioso, picante e ousado molho masala.",
+      "image": "/img/FrangoMasala.png",
+      "price": 17.99,
+      "category": "Frango"
+    },
+    {
+      "productId": "4",
+      "name": "Sobremesa de Morango",
+      "description": "Uma deliciosa sobremesa de morango fresco, perfeita para finalizar sua refeição.",
+      "image": "/img/Morango.png",
+      "price": 12.99,
+      "category": "Sobremesa"
+    },
+    {
+      "productId": "5",
+      "name": "Gulab Jamun",
+      "description": "Uma sobremesa indiana doce e cremosa, perfeita para finalizar sua refeição.",
+      "image": "/img/GulabJamun.png",
+      "price": 15.99,
+      "category": "Sobremesa"
+    },
+    {
+      "productId": "6",
+      "name": "Sobremesa de Uva",
+      "description": "Uma deliciosa sobremesa de uva fresca, perfeita para finalizar sua refeição.",
+      "image": "/img/Uva.png",
+      "price": 14.99,
+      "category": "Sobremesa"
+    },
+
+    {
+      "productId": "7",
+      "name": "Passport Holder",
+      "description": "Passport Holder",
+      "image": "/img/PassportHolder.png",
+      "price": 85
+    },
+     {
+      "productId": "8",
+      "name": "Key Holder",
+      "description": "Key Holder",
+      "image": "/img/KeyHolder.png",
+      "price": 45
+     },
+
+     {
+      "productId": "9",
+      "name": "Laptop Sleeve",
+      "description": "Laptop Sleeve",
+      "image": "/img/LaptopSleeve.png",
+      "price": 195
+     }
+    
+  ]
+}

@@ -1,12 +1,9 @@
-
-type Category = "Entrada" | "Prato Principal" | "Sushi" | "Sobremesa" | "Bebida";
-
-export interface Product {
-
-    id: string,
-    name: string,
-    description: string,
-    price: number,
-    category: Category,
-    image: string,
-}
+// types/products.ts
+export type Product = {
+  id: string;
+  name: string;
+  price: number;
+  image?: string;
+  description?: string;
+  category?: string; 
+};
