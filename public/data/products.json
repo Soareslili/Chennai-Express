@@ -7,7 +7,7 @@
       "description": "Prato saboroso de frango e arroz que inclui camadas de frango, arroz e ingredientes aromáticos cozidos no vapor.",
       "image": "/img/FrangoBiryani.png",
       "price": 13.99,
-      "category": "Frango"
+      "category": "Prato Principal"
     },
     {
       "productId": "2",
@@ -15,7 +15,7 @@
       "description": "Um curry suave e cremoso à base de tomate com pedaços de frango marinado e cozido em manteiga.",
       "image": "/img/FrangoManteiga.png",
       "price": 15.99,
-      "category": "Frango"
+      "category": "Prato Principal"
     },
     {
       "productId": "3",
@@ -23,7 +23,7 @@
       "description": "Um prato indiano de frango assado na brasa, cozido com um delicioso, picante e ousado molho masala.",
       "image": "/img/FrangoMasala.png",
       "price": 17.99,
-      "category": "Frango"
+      "category": "Prato Principal"
     },
     {
       "productId": "4",
@@ -31,7 +31,7 @@
       "description": "Uma deliciosa sobremesa de morango fresco, perfeita para finalizar sua refeição.",
       "image": "/img/Morango.png",
       "price": 12.99,
-      "category": "Sobremesa"
+      "category": "Sobremesas"
     },
     {
       "productId": "5",
@@ -39,7 +39,7 @@
       "description": "Uma sobremesa indiana doce e cremosa, perfeita para finalizar sua refeição.",
       "image": "/img/GulabJamun.png",
       "price": 15.99,
-      "category": "Sobremesa"
+      "category": "Sobremesas"
     },
     {
       "productId": "6",
@@ -47,30 +47,60 @@
       "description": "Uma deliciosa sobremesa de uva fresca, perfeita para finalizar sua refeição.",
       "image": "/img/Uva.png",
       "price": 14.99,
-      "category": "Sobremesa"
+      "category": "Sobremesas"
     },
 
     {
       "productId": "7",
-      "name": "Passport Holder",
-      "description": "Passport Holder",
-      "image": "/img/PassportHolder.png",
-      "price": 85
+      "name": "Camarão Biryani",
+      "description": "Prato saboroso de camarão e arroz que inclui camadas de camarão, arroz e aromáticos cozidos no vapor.",
+      "image": "/img/Camarao.png",
+      "price": 16.99,
+      "category": "Prato Principal"
     },
      {
       "productId": "8",
-      "name": "Key Holder",
-      "description": "Key Holder",
-      "image": "/img/KeyHolder.png",
-      "price": 45
-     },
+      "name": "Rendang de Carne",
+      "description": "prato tradicional da Indonésia, preparado com pedaços de carne cozidos lentamente em uma rica infusão de leite de coco e uma pasta de especiarias como capim-limão, gengibre, alho e pimenta.",
+      "image": "/img/Carne.png",
+      "price": 18.99,
+      "category": "Prato Principal"
+    },
 
      {
       "productId": "9",
-      "name": "Laptop Sleeve",
-      "description": "Laptop Sleeve",
-      "image": "/img/LaptopSleeve.png",
-      "price": 195
+      "name": "Legumes Biryani",
+      "description": "Prato saboroso de legumes e arroz que inclui camadas de legumes, arroz e aromáticos cozidos no vapor.",
+      "image": "/img/Legumes.png",
+      "price": 14.99,
+      "category": "Prato Principal"
+     }, 
+
+     {
+      "prosductId": "10",
+      "name": "Filé Mignon Grelhado ao Molho de Vinho Tinto",
+      "description": "Medalhões de filé mignon perfeitamente grelhados, servidos ao ponto para garantir a máxima maciez e suculência.",
+      "image": "/img/Medalao.png",
+      "price": 29.99,
+      "category": "Prato Principal"
+     },
+
+     {
+      "productId": "11",
+      "name": "Carne de Sol Gourmet com Mousseline de Mandioca e Queijo Coalho Glaceado.",
+      "description": "Cubos de carne de sol selecionada, preparados na manteiga de garrafa até ficarem dourados por fora e incrivelmente macios por dentro.",
+      "image": "/img/CarneSol.png",
+      "price": 24.99,
+      "category": "Prato Principal"
+     },
+
+     {
+      "productId":"12",
+      "name": "Fettuccine ao Molho Branco de Parmesão com Camarões Grelhados.",
+      "description": "Uma massa fettuccine al dente envolvida em um cremoso e aveludado molho branco de parmesão, coroada com imponentes camarões rosa grelhados na manteiga e salpicada com ervas frescas.",
+      "image": "/img/Fettuccine.png",
+      "price": 19.99,
+      "category": "Prato Principal"
      }
     
   ]

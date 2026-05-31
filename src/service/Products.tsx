@@ -9,7 +9,7 @@ interface ProductProps {
   showViewAll?: boolean;
 }
 
-const CATEGORIES = [ "Starter", "Sides", "Frango", "Sobremesa", "Beverages"];
+const CATEGORIES = [ "Entradas", "Massas", "Prato Principal", "Sobremesas", "Bebidas"];
 
 export function Products({ products, onProductClick, showViewAll = false }: ProductProps) {
   const { addItem } = useCart();
