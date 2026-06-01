@@ -49,7 +49,6 @@
       "price": 14.99,
       "category": "Sobremesas"
     },
-
     {
       "productId": "7",
       "name": "Camarão Biryani",
@@ -58,7 +57,7 @@
       "price": 16.99,
       "category": "Prato Principal"
     },
-     {
+    {
       "productId": "8",
       "name": "Rendang de Carne",
       "description": "prato tradicional da Indonésia, preparado com pedaços de carne cozidos lentamente em uma rica infusão de leite de coco e uma pasta de especiarias como capim-limão, gengibre, alho e pimenta.",
@@ -66,42 +65,62 @@
       "price": 18.99,
       "category": "Prato Principal"
     },
-
-     {
+    {
       "productId": "9",
       "name": "Legumes Biryani",
       "description": "Prato saboroso de legumes e arroz que inclui camadas de legumes, arroz e aromáticos cozidos no vapor.",
       "image": "/img/Legumes.png",
       "price": 14.99,
       "category": "Prato Principal"
-     }, 
-
-     {
+    },
+    {
       "prosductId": "10",
       "name": "Filé Mignon Grelhado ao Molho de Vinho Tinto",
       "description": "Medalhões de filé mignon perfeitamente grelhados, servidos ao ponto para garantir a máxima maciez e suculência.",
       "image": "/img/Medalao.png",
       "price": 29.99,
       "category": "Prato Principal"
-     },
-
-     {
+    },
+    {
       "productId": "11",
       "name": "Carne de Sol Gourmet com Mousseline de Mandioca e Queijo Coalho Glaceado.",
       "description": "Cubos de carne de sol selecionada, preparados na manteiga de garrafa até ficarem dourados por fora e incrivelmente macios por dentro.",
       "image": "/img/CarneSol.png",
       "price": 24.99,
       "category": "Prato Principal"
-     },
-
-     {
-      "productId":"12",
+    },
+    {
+      "productId": "12",
       "name": "Fettuccine ao Molho Branco de Parmesão com Camarões Grelhados.",
       "description": "Uma massa fettuccine al dente envolvida em um cremoso e aveludado molho branco de parmesão, coroada com imponentes camarões rosa grelhados na manteiga e salpicada com ervas frescas.",
       "image": "/img/Fettuccine.png",
       "price": 19.99,
       "category": "Prato Principal"
-     }
-    
+    },
+    {
+      "productId": "13",
+      "name": "Camarão Costa Dourada",
+      "description": "Camarões selecionados salteados e servidos em um delicado molho cremoso de inspiração tropical, finalizados com pimentas frescas, ervas aromáticas e lâminas crocantes. Acompanhado de arroz branco soltinho moldado artesanalmente.",
+      "image": "/img/CamaraoCosta.png",
+      "price": 25.99,
+      "category": "Prato Principal"
+    },
+    {
+      "productId": "14",
+      "name": "Jardim Gourmet",
+      "description": "Seleção de legumes nobres assados e grelhados, servidos sobre um delicado creme de couve-flor, finalizados com flores comestíveis, sementes selecionadas e crocantes artesanais. Uma celebração de sabores, cores e texturas.",
+      "image": "/img/JardimGourmet.png",
+      "price": 21.99,
+      "category": "Prato Principal"
+    },
+
+     {
+      "productId": "15",
+      "name": "Horta Assada",
+      "description": "Mix de legumes frescos da estação assados lentamente com ervas aromáticas, preservando sua textura e sabor natural. Uma opção leve, colorida e repleta de personalidade.",
+      "image": "/img/HortaAssada.png",
+      "price": 23.99,
+      "category": "Prato Principal"
+    }
   ]
 }
