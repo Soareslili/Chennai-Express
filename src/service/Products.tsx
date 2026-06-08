@@ -26,15 +26,7 @@ export function Products({ products, onProductClick, showViewAll = false }: Prod
     <section id="products" className="py-20 mt-4">
       <div className="container-custom px-8">
 
-        {/* Section title */}
-        <div className="text-center mb-10">
-          <h2 className="text-3xl font-bold font-Cormorant text-accent-foreground mb-4">
-            Confira nossa linha
-          </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto text-base leading-relaxed">
-            Nossas mais novas criações, prontas para se tornarem sua companhia diária.
-          </p>
-        </div>
+      
 
         {/* Category tabs */}
         <div className="mb-10 flex flex-wrap justify-center gap-2 sm:gap-3">

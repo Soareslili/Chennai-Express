@@ -22,9 +22,10 @@ const Header = () => {
     }, []);
 
     const navLinks = [
-        { name: 'Menu', href: '#menu' },
-        { name: 'Produtos', href: '#offers' },
-        { name: 'Categoria', href: '#categoria' },
+       
+        {name: 'Home', href: '/' },
+        { name: 'Produtos', href: '/products' },
+        { name: 'Categoria', href: '/combos' },
         { name: 'Contato', href: '#contact' },
     ];
 

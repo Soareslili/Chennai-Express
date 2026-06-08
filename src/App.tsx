@@ -4,17 +4,20 @@ import Header from "./Components/Home/Header"
 import Hero from "./Components/Layout/Hero"
 import type { Product } from "./types/products";
 
-import {  Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { Products } from "./service/Products";
+import CartSheet from "./Components/Layout/CartSheet";
+import CheckoutModal from "./pages/Checkout";
+import Categories from "./pages/Categories";
 
 
 function App() {
-  const [products, setProducts] = useState<Product[]>([]); 
+  const [products, setProducts] = useState<Product[]>([]);
 
   useEffect(() => {
     getProduct()
       .then((data) => {
-        console.log("Produtos carregados:", data); 
+        console.log("Produtos carregados:", data);
         setProducts(data);
       })
       .finally(() => (false));
@@ -26,7 +29,7 @@ function App() {
   };
 
   return (
-    
+
     <BrowserRouter>
       <div className="min-h-screen flex flex-col">
         <Header />
@@ -35,20 +38,27 @@ function App() {
             <Route path="/" element={
               <>
                 <Hero />
-                <Products products={products} onProductClick={handleProductClick} showViewAll={false} />
-               
+                <Products products={products} showViewAll={false} />
+
               </>
-            } />
-            <Route path="/products" element={        
+            }
+
+            />
+            <Route path="/products" element={
               <Products products={products} onProductClick={handleProductClick} showViewAll={true} />
+
             } />
+            <Route path="/combos" element={<Categories />} />
+
+
           </Routes>
         </main>
-   
+        <CartSheet />
+        <CheckoutModal />
       </div>
     </BrowserRouter>
-     
-    
+
+
   );
 }
 

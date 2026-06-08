@@ -22,8 +22,8 @@ const CartSheet = () => {
   } = useCart();
 
   return (
-    <Sheet open={isCartOpen} onOpenChange={closeCart}>
-      <SheetContent className=" bg-foreground flex flex-col w-full sm:max-w-lg">
+    <Sheet  open={isCartOpen} onOpenChange={closeCart}>
+      <SheetContent id="cart" className=" bg-background flex flex-col w-full sm:max-w-lg">
         <SheetHeader>
           <SheetTitle className="flex items-center text-accent-foreground gap-2">
             <ShoppingBag className="h-5 w-5 text-accent-foreground" />
@@ -112,7 +112,7 @@ const CartSheet = () => {
               </p>
               <a
                 onClick={openCheckout}
-                className="w-full px-20 py-2 bg-accent rounded-full text-accent-foreground cursor-pointer font-medium mt-8"
+                className="w-full px-20 py-2 bg-primary rounded-full text-accent-foreground cursor-pointer font-medium mt-8"
                 
               >
                 Finalizar Compra
