@@ -10,6 +10,12 @@
     --font-serif: 'Cinzel', serif;
 
     --color-primary: #FF6B6B;
+    --color-secondary: #4A90E2;
+    --color-accent: #FF6B6B;
     --color-background: #F5F5F5;
     --color-foreground: #333333;
+    --color-text: #333333;
+    --color-muted: #666666;
+    --color-border: #E0E0E0;
+   
 }

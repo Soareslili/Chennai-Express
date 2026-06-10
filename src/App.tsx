@@ -3,12 +3,14 @@ import { getProduct } from "./service/ProductService";
 import Header from "./Components/Home/Header"
 import Hero from "./Components/Layout/Hero"
 import type { Product } from "./types/products";
+import Packeges from "./Components/Layout/Packeges";
 
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { Products } from "./service/Products";
 import CartSheet from "./Components/Layout/CartSheet";
 import CheckoutModal from "./pages/Checkout";
-import Categories from "./pages/Categories";
+import Categories from "./pages/Combos";
+import Footer from "./pages/Footer";
 
 
 function App() {
@@ -39,6 +41,7 @@ function App() {
               <>
                 <Hero />
                 <Products products={products} showViewAll={false} />
+                <Packeges />
 
               </>
             }
@@ -55,6 +58,7 @@ function App() {
         </main>
         <CartSheet />
         <CheckoutModal />
+        <Footer />
       </div>
     </BrowserRouter>
 

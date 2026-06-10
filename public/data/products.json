@@ -113,14 +113,39 @@
       "price": 21.99,
       "category": "Prato Principal"
     },
-
-     {
+    {
       "productId": "15",
       "name": "Horta Assada",
       "description": "Mix de legumes frescos da estação assados lentamente com ervas aromáticas, preservando sua textura e sabor natural. Uma opção leve, colorida e repleta de personalidade.",
       "image": "/img/HortaAssada.png",
       "price": 23.99,
       "category": "Prato Principal"
+    },
+    {
+      "productId": "16",
+      "name": "Samosa Vegetal",
+      "description": "Bolsinhos de massa frita crocante recheados com batatas e ervilhas temperadas, servidos com chutney picante.",
+      "image": "/img/SamosaVegetal.png",
+      "price": 6.99,
+      "category": "Entradas"
+    },
+   
+    {
+      "productId": "18",
+      "name": "Paneer Tikka",
+      "description": "Cubos de requeijão marinado grelhados na perfeição com pimentão e cebola.",
+      "image": "/img/PaneerTikka.png",
+      "price": 8.99,
+      "category": "Entradas"
+    },
+
+    {
+      "productId": "19",
+      "name": "Pakora de Legumes",
+      "description": "Legumes frescos empanados em farinha de grão-de-bico e especiarias indianas, fritos até ficarem dourados e crocantes.",
+      "image": "/img/Pakora.png",
+      "price": 7.99,
+      "category": "Entradas"
     }
   ]
 }

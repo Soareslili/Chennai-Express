@@ -4,6 +4,8 @@ import heroBanner from "../../assets/heroBanner.png";
     
     const Hero = () => {
         return (
+    
+          
     <section className="relative mx-auto max-w-7xl px-4 pt-20 sm:px-6 lg:px-8">
         <div className="relative overflow-hidden rounded-2xl">
           <img

@@ -109,17 +109,7 @@ export function Products({ products, onProductClick, showViewAll = false }: Prod
           ))}
         </div>
 
-        {/* View all link */}
-        {!showViewAll && (
-          <div className="text-center mt-12">
-            <a
-              href="/products"
-              className="inline-block px-8 py-3 border border-foreground text-foreground hover:bg-foreground hover:text-background rounded-full text-sm font-medium tracking-wide uppercase transition-all duration-300"
-            >
-              Ver todos os produtos
-            </a>
-          </div>
-        )}
+      
 
       </div>
     </section>
