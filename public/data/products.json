@@ -146,6 +146,57 @@
       "image": "/img/Pakora.png",
       "price": 7.99,
       "category": "Entradas"
-    }
+    },
+
+    {
+      "productId": "20",
+      "name": "Aloo Tikki",
+      "description": "Bolinhos de batata temperados com ervas e especiarias indianas, crocantes por fora e macios por dentro.",
+      "image": "/img/AlooTikki.png",
+      "price": 9.99,
+      "category": "Entradas"
+    },
+
+      {
+        "productId": "21",
+        "name": "Chicken 65",
+        "description": "Pedaços de frango marinados em especiarias especiais e fritos até ficarem crocantes e saborosos.",
+        "image": "/img/Chicken65.png",
+        "price": 12.99,
+        "category": "Entradas"
+      } ,
+      {
+        "productId": "22",
+        "name": "Papadum Crocante",
+        "description": "Finas e crocantes torradas indianas servidas com chutneys tradicionais.",
+        "image": "/img/PapadumCrocante.png",
+        "price": 5.99,
+        "category": "Entradas"
+      },
+      {
+        "productId": "23",
+        "name": "Onion Bhaji",
+        "description": "Tirinhas de cebola empanadas em massa de grão-de-bico com especiarias aromáticas, fritas até dourarem.",
+        "image": "/img/OnionBhaji.png",
+        "price": 7.99,
+        "category": "Entradas"
+      },
+      {
+        "productId": "24",
+        "name": "Seekh Kebab",
+        "description": "Espetinhos de carne moída temperada com ervas e especiarias, grelhados até a perfeição.",
+        "image": "/img/SeekhKebab.png",
+        "price": 11.99,
+        "category": "Entradas"
+      },
+
+        {
+          "productId": "25",
+          "name": "Penne Masala",
+          "description": "Penne ao molho cremoso de tomate, especiarias indianas e ervas frescas.",
+          "image": "/img/PenneMasala.png",
+          "price": 21.99,
+          "category": "Massas"
+        }
   ]
 }
