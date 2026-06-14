@@ -197,6 +197,70 @@
           "image": "/img/PenneMasala.png",
           "price": 21.99,
           "category": "Massas"
+        },
+
+        {
+          "productId": "26",
+          "name": "Penne Chennai Especial",
+          "description": "Penne ao molho rosé com especiarias indianas, queijo e ervas frescas.",
+          "image": "/img/PenneChennaiEspecial.png",
+          "price": 24.99,
+          "category": "Massas"
+        },
+
+        {
+          "productId": "27",
+          "name": "Spaghetti ao Molho Korma",
+          "description": "Massa italiana servida com molho korma cremoso e toque de castanhas.",
+          "image": "/img/SpaghettiMolhKorma.png",
+          "price": 22.99,
+          "category": "Massas"
+        },
+
+        {
+          "productId": "28",
+          "name": "Tagliatelle com molho pesto e camarão",
+          "description": "O pesto clássico, feito com manjericão, pinhões, queijo parmesão e azeite, combina perfeitamente com a massa tagliatelle e o sabor delicado do camarão.",
+          "image": "/img/TagliatelleCamarão.png",
+          "price": 19.99,
+          "category": "Massas"
+        },
+
+        {
+          "productId": "29",
+          "name": "Tagliatelle com molho de cogumelos e trufas",
+          "description": "Se você gosta de sabores mais terrosos e sofisticados, experimente um molho cremoso de cogumelos variados com um toque de óleo ou pasta de trufas.",
+          "image": "/img/TagliatelleCogumelos.png",
+          "price": 25.99,
+          "category": "Massas"
+        },
+
+          {
+          "productId": "30",
+          "name": "Tagliatelle com ragu de carne",
+          "description": " O tradicional ragu italiano, feito com carne moída cozida lentamente em molho de tomate, é um clássico que nunca falha com tagliatelle.",
+          "image": "/img/TagliatelleCarne.png",
+          "price": 23.99,
+          "category": "Massas"
+        },
+
+         {
+          "productId": "31",
+          "name": "Tagliatelle com molho de abóbora e sálvia",
+          "description": "Uma opção vegetariana deliciosa e reconfortante, com abóbora assada e caramelizada em manteiga de sálvia.",
+          "image": "/img/TagliatelleAbóbora.png",
+          "price": 21.99,
+          "category": "Massas"
+        },
+
+         {
+          "productId": "32",
+          "name": "Tagliatelle al limone",
+          "description": "Um prato simples e refrescante, com molho cremoso de limão, raspas de limão e queijo parmesão.",
+          "image": "/img/Tagliatellelimone.png",
+          "price": 21.99,
+          "category": "Massas"
         }
   ]
+  
 }
