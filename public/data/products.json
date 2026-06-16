@@ -129,7 +129,6 @@
       "price": 6.99,
       "category": "Entradas"
     },
-   
     {
       "productId": "18",
       "name": "Paneer Tikka",
@@ -138,7 +137,6 @@
       "price": 8.99,
       "category": "Entradas"
     },
-
     {
       "productId": "19",
       "name": "Pakora de Legumes",
@@ -147,7 +145,6 @@
       "price": 7.99,
       "category": "Entradas"
     },
-
     {
       "productId": "20",
       "name": "Aloo Tikki",
@@ -156,111 +153,145 @@
       "price": 9.99,
       "category": "Entradas"
     },
+    {
+      "productId": "21",
+      "name": "Chicken 65",
+      "description": "Pedaços de frango marinados em especiarias especiais e fritos até ficarem crocantes e saborosos.",
+      "image": "/img/Chicken65.png",
+      "price": 12.99,
+      "category": "Entradas"
+    },
+    {
+      "productId": "22",
+      "name": "Papadum Crocante",
+      "description": "Finas e crocantes torradas indianas servidas com chutneys tradicionais.",
+      "image": "/img/PapadumCrocante.png",
+      "price": 5.99,
+      "category": "Entradas"
+    },
+    {
+      "productId": "23",
+      "name": "Onion Bhaji",
+      "description": "Tirinhas de cebola empanadas em massa de grão-de-bico com especiarias aromáticas, fritas até dourarem.",
+      "image": "/img/OnionBhaji.png",
+      "price": 7.99,
+      "category": "Entradas"
+    },
+    {
+      "productId": "24",
+      "name": "Seekh Kebab",
+      "description": "Espetinhos de carne moída temperada com ervas e especiarias, grelhados até a perfeição.",
+      "image": "/img/SeekhKebab.png",
+      "price": 11.99,
+      "category": "Entradas"
+    },
+    {
+      "productId": "25",
+      "name": "Penne Masala",
+      "description": "Penne ao molho cremoso de tomate, especiarias indianas e ervas frescas.",
+      "image": "/img/PenneMasala.png",
+      "price": 21.99,
+      "category": "Massas"
+    },
+    {
+      "productId": "26",
+      "name": "Penne Chennai Especial",
+      "description": "Penne ao molho rosé com especiarias indianas, queijo e ervas frescas.",
+      "image": "/img/PenneChennaiEspecial.png",
+      "price": 24.99,
+      "category": "Massas"
+    },
+    {
+      "productId": "27",
+      "name": "Spaghetti ao Molho Korma",
+      "description": "Massa italiana servida com molho korma cremoso e toque de castanhas.",
+      "image": "/img/SpaghettiMolhKorma.png",
+      "price": 22.99,
+      "category": "Massas"
+    },
+    {
+      "productId": "28",
+      "name": "Tagliatelle com molho pesto e camarão",
+      "description": "O pesto clássico, feito com manjericão, pinhões, queijo parmesão e azeite, combina perfeitamente com a massa tagliatelle e o sabor delicado do camarão.",
+      "image": "/img/TagliatelleCamarão.png",
+      "price": 19.99,
+      "category": "Massas"
+    },
+    {
+      "productId": "29",
+      "name": "Tagliatelle com molho de cogumelos e trufas",
+      "description": "Se você gosta de sabores mais terrosos e sofisticados, experimente um molho cremoso de cogumelos variados com um toque de óleo ou pasta de trufas.",
+      "image": "/img/TagliatelleCogumelos.png",
+      "price": 25.99,
+      "category": "Massas"
+    },
+    {
+      "productId": "30",
+      "name": "Tagliatelle com ragu de carne",
+      "description": " O tradicional ragu italiano, feito com carne moída cozida lentamente em molho de tomate, é um clássico que nunca falha com tagliatelle.",
+      "image": "/img/TagliatelleCarne.png",
+      "price": 23.99,
+      "category": "Massas"
+    },
+    {
+      "productId": "31",
+      "name": "Tagliatelle com molho de abóbora e sálvia",
+      "description": "Uma opção vegetariana deliciosa e reconfortante, com abóbora assada e caramelizada em manteiga de sálvia.",
+      "image": "/img/TagliatelleAbóbora.png",
+      "price": 21.99,
+      "category": "Massas"
+    },
+    {
+      "productId": "32",
+      "name": "Tagliatelle al limone",
+      "description": "Um prato simples e refrescante, com molho cremoso de limão, raspas de limão e queijo parmesão.",
+      "image": "/img/Tagliatellelimone.png",
+      "price": 21.99,
+      "category": "Massas"
+    },
+    {
+      "productId": "33",
+      "name": " Cheesecake de Morango",
+      "description": "Uma fatia de cheesecake de morango gourmet, cobertura brilhante de morangos frescos e calda vermelha, decorada com folhas de hortelã. Servida em um prato de cerâmica elegante sobre uma mesa de madeira escura, iluminação cinematográfica, fotografia gastronômica profissional, ultra realista, alta definição.",
+      "image": "/img/CheesecakeMorango.png",
+      "price": 17.99,
+      "category": "Sobremesas"
+    },
 
-      {
-        "productId": "21",
-        "name": "Chicken 65",
-        "description": "Pedaços de frango marinados em especiarias especiais e fritos até ficarem crocantes e saborosos.",
-        "image": "/img/Chicken65.png",
-        "price": 12.99,
-        "category": "Entradas"
-      } ,
-      {
-        "productId": "22",
-        "name": "Papadum Crocante",
-        "description": "Finas e crocantes torradas indianas servidas com chutneys tradicionais.",
-        "image": "/img/PapadumCrocante.png",
-        "price": 5.99,
-        "category": "Entradas"
-      },
-      {
-        "productId": "23",
-        "name": "Onion Bhaji",
-        "description": "Tirinhas de cebola empanadas em massa de grão-de-bico com especiarias aromáticas, fritas até dourarem.",
-        "image": "/img/OnionBhaji.png",
-        "price": 7.99,
-        "category": "Entradas"
-      },
-      {
-        "productId": "24",
-        "name": "Seekh Kebab",
-        "description": "Espetinhos de carne moída temperada com ervas e especiarias, grelhados até a perfeição.",
-        "image": "/img/SeekhKebab.png",
-        "price": 11.99,
-        "category": "Entradas"
-      },
+     {
+      "productId": "34",
+      "name": " Brownie com Sorvete",
+      "description": "Um brownie de chocolate quente e macio servido com uma bola de sorvete de baunilha, calda de chocolate derretido e raspas de chocolate. Apresentação sofisticada em prato preto, fotografia gastronômica premium, iluminação suave, ultra realista, alta definição.",
+      "image": "/img/BrownieSorvete.png",
+      "price": 15.99,
+      "category": "Sobremesas"
+    },
 
-        {
-          "productId": "25",
-          "name": "Penne Masala",
-          "description": "Penne ao molho cremoso de tomate, especiarias indianas e ervas frescas.",
-          "image": "/img/PenneMasala.png",
-          "price": 21.99,
-          "category": "Massas"
-        },
+    {
+      "productId": "35",
+      "name": " Mousse de Manga Tropical",
+      "description": "Uma taça de mousse de manga cremosa decorada com cubos de manga fresca, folhas de hortelã e um leve toque de coco ralado. Ambiente elegante de restaurante, fotografia gastronômica profissional, ultra realista, iluminação cinematográfica, alta definição.",
+      "image": "/img/MousseMangaTropical.png",
+      "price": 12.99,
+      "category": "Sobremesas"
+    },
 
-        {
-          "productId": "26",
-          "name": "Penne Chennai Especial",
-          "description": "Penne ao molho rosé com especiarias indianas, queijo e ervas frescas.",
-          "image": "/img/PenneChennaiEspecial.png",
-          "price": 24.99,
-          "category": "Massas"
-        },
+    {
+      "productId": "36",
+      "name": "Pudim de Cardamomo",
+      "description": "Um pudim indiano de cardamomo com textura cremosa e calda caramelizada brilhante, decorado com pistache triturado e pétalas de rosa secas. Servido em prato sofisticado, fotografia gastronômica premium, ultra realista, alta definição.",
+      "image": "/img/PudimCardamomo.png",
+      "price": 15.99,
+      "category": "Sobremesas"
+    },
 
-        {
-          "productId": "27",
-          "name": "Spaghetti ao Molho Korma",
-          "description": "Massa italiana servida com molho korma cremoso e toque de castanhas.",
-          "image": "/img/SpaghettiMolhKorma.png",
-          "price": 22.99,
-          "category": "Massas"
-        },
-
-        {
-          "productId": "28",
-          "name": "Tagliatelle com molho pesto e camarão",
-          "description": "O pesto clássico, feito com manjericão, pinhões, queijo parmesão e azeite, combina perfeitamente com a massa tagliatelle e o sabor delicado do camarão.",
-          "image": "/img/TagliatelleCamarão.png",
-          "price": 19.99,
-          "category": "Massas"
-        },
-
-        {
-          "productId": "29",
-          "name": "Tagliatelle com molho de cogumelos e trufas",
-          "description": "Se você gosta de sabores mais terrosos e sofisticados, experimente um molho cremoso de cogumelos variados com um toque de óleo ou pasta de trufas.",
-          "image": "/img/TagliatelleCogumelos.png",
-          "price": 25.99,
-          "category": "Massas"
-        },
-
-          {
-          "productId": "30",
-          "name": "Tagliatelle com ragu de carne",
-          "description": " O tradicional ragu italiano, feito com carne moída cozida lentamente em molho de tomate, é um clássico que nunca falha com tagliatelle.",
-          "image": "/img/TagliatelleCarne.png",
-          "price": 23.99,
-          "category": "Massas"
-        },
-
-         {
-          "productId": "31",
-          "name": "Tagliatelle com molho de abóbora e sálvia",
-          "description": "Uma opção vegetariana deliciosa e reconfortante, com abóbora assada e caramelizada em manteiga de sálvia.",
-          "image": "/img/TagliatelleAbóbora.png",
-          "price": 21.99,
-          "category": "Massas"
-        },
-
-         {
-          "productId": "32",
-          "name": "Tagliatelle al limone",
-          "description": "Um prato simples e refrescante, com molho cremoso de limão, raspas de limão e queijo parmesão.",
-          "image": "/img/Tagliatellelimone.png",
-          "price": 21.99,
-          "category": "Massas"
-        }
+     {
+      "productId": "37",
+      "name": "Kulfi de Pistache",
+      "description": "Um kulfi indiano de pistache servido em prato elegante, decorado com pistaches triturados, fios de açafrão e pétalas de rosa. Apresentação refinada, fundo escuro, iluminação cinematográfica, fotografia gastronômica profissional, ultra realista, alta definição.",
+      "image": "/img/KulfiPistache.png",
+      "price": 19.99,
+      "category": "Sobremesas"
+    }
   ]
-  
 }

@@ -34,7 +34,7 @@ export function Products({ products, onProductClick, showViewAll = false }: Prod
             <button
               key={cat}
               onClick={() => setActiveCategory(cat)}
-              className={`rounded-md border px-5 py-2.5 text-sm font-semibold uppercase tracking-wide transition-all ${
+              className={`rounded-md border px-5 py-2.5 text-sm font-semibold cursor-pointer uppercase tracking-wide transition-all ${
                 activeCategory === cat
                   ? "bg-foreground text-background border-foreground"
                   : "bg-transparent text-foreground border-foreground/30 hover:border-foreground/60"

@@ -15,7 +15,7 @@ const Packeges = () => {
             { icon: ChefHat, title: "Receitas Caseiras", desc: "Receitas familiares tradicionais" },
             { icon: Star, title: "Melhor Qualidade de Comida", desc: "Avaliado com 5 estrelas por 2k+ clientes" },
           ].map((f) => (
-            <div key={f.title} className="flex flex-col items-center text-center">
+            <div key={f.title} className="flex flex-col items-center text-center py-4 px-4 border border-accent rounded-lg">
               <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-primary/10 text-primary">
                 <f.icon className="h-7 w-7" />
               </div>

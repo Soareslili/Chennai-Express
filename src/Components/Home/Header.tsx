@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
-
 import { Menu, X, ChefHat, ShoppingCart } from "lucide-react";
 import { useCart } from "../../Context/CartContext";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -11,6 +11,7 @@ const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenu, setIsMobileMenu] = useState(false);
     const { totalItems, openCart } = useCart();
+
 
     useEffect(() => {
         const handleScroll = () => {
@@ -22,8 +23,8 @@ const Header = () => {
     }, []);
 
     const navLinks = [
-       
-        {name: 'Home', href: '/' },
+
+        { name: 'Home', href: '/' },
         { name: 'Produtos', href: '/products' },
         { name: 'Combos', href: '/combos' },
     ];
@@ -47,29 +48,31 @@ const Header = () => {
                         </div>
                     </div>
                     <button
-                        className="md:hidden p-2 text-foreground"
+                        className="md:hidden p-2 text-foreground cursor-pointer ml-20"
                         onClick={() => setIsMobileMenu(!isMobileMenu)}
                     >
                         {isMobileMenu ? <X size={24} /> : <Menu size={24} />}
                     </button>
 
                     <nav className="hidden md:flex items-center gap-8">
-                        {navLinks.map((link, i) => (
-                            <a
+                        {navLinks.map((link) => (
+                            <NavLink
                                 key={link.name}
-                                href={link.href}
-                                className={`text-sm font-medium transition-colors hover:text-primary ${i === 0 ? "text-primary" : "text-foreground"
-                                    }`}
+                                to={link.href}
+                                className={({ isActive }) =>
+                                    `text-sm font-medium transition-colors hover:text-primary ${isActive ? "text-primary" : "text-foreground"
+                                    }`
+                                }
                             >
                                 {link.name}
-                            </a>
+                            </NavLink>
                         ))}
                     </nav>
 
                     <div className="flex items-center gap-3">
                         <button
                             onClick={openCart}
-                            className="relative rounded-md p-2 text-foreground cursor-pointer transition-colors hover:bg-secondary"
+                            className="relative rounded-md p-2 text-foreground mr-2 cursor-pointer transition-colors hover:bg-secondary"
                             aria-label="Open cart"
                         >
                             <ShoppingCart className="h-5 w-5" />
@@ -79,12 +82,7 @@ const Header = () => {
                                 </span>
                             )}
                         </button>
-                        <a
-                            href="#menu"
-                            className="rounded-md bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:bg-primary-hover hover:shadow-md"
-                        >
-                            Order Now
-                        </a>
+
                     </div>
                 </div>
             </div>
@@ -98,14 +96,14 @@ const Header = () => {
             >
                 <nav className="flex flex-col py-4">
                     {navLinks.map((link) => (
-                        <a
+                        <NavLink
                             key={link.name}
-                            href={link.href}
+                            to={link.href}
                             className="px-6 py-3 text-small text-muted-foreground hover:text-foreground hover:bg-muted transition-colors tracking-wide uppercase"
                             onClick={() => setIsMobileMenu(false)}
                         >
                             {link.name}
-                        </a>
+                        </NavLink>
                     ))}
                 </nav>
             </div>
