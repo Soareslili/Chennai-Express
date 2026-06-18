@@ -292,6 +292,78 @@
       "image": "/img/KulfiPistache.png",
       "price": 19.99,
       "category": "Sobremesas"
+    },
+
+    {
+      "productId": "38",
+      "name": "Coca-Cola",
+      "description": "Refrigerante clássico e refrescante, servido gelado.",
+      "image": "/img/CocaCola.png",
+      "price": 8.99,
+      "category": "Bebidas"
+    },
+
+    {
+      "productId": "39",
+      "name": "Guarana Antarctica",
+      "description": "Refrigerante brasileiro de sabor suave e refrescante.",
+      "image": "/img/Guarana.png",
+      "price": 8.99,
+      "category": "Bebidas"
+    },
+
+     {
+      "productId": "40",
+      "name": "Suco de Manga",
+      "description": "Suco natural de manga, doce e refrescante, preparado com frutas selecionadas.",
+      "image": "/img/SucoManga.png",
+      "price": 9.99,
+      "category": "Bebidas"
+    },
+
+     {
+      "productId": "41",
+      "name": "Suco de Maracujá",
+      "description": "Suco natural de maracujá, doce e refrescante, preparado com frutas selecionadas.",
+      "image": "/img/SucoMaracuja.png",
+      "price": 9.99,
+      "category": "Bebidas"
+    },
+
+     {
+      "productId": "42",
+      "name": "Limonada de Hortelã",
+      "description": "Limonada refrescante com o sabor da hortelã, preparada com ingredientes naturais.",
+      "image": "/img/Limonada.png",
+      "price": 12.99,
+      "category": "Bebidas"
+    },
+
+     {
+      "productId": "43",
+      "name": "Sunset Chennai",
+      "description": "Uma bebida refrescante com o sabor do chenai, preparada com ingredientes naturais.",
+      "image": "/img/SunsetChennai.png",
+      "price": 16.99,
+      "category": "Bebidas"
+    },
+
+     {
+      "productId": "44",
+      "name": "Indian Spice Mojito",
+      "description": "Drink sem álcool de limão, hortelã e água com gás, com um leve toque de especiarias indianas.",
+      "image": "/img/Indian.png",
+      "price": 16.99,
+      "category": "Bebidas"
+    },
+
+     {
+      "productId": "45",
+      "name": "Royal Mango Fizz",
+      "description": "Drink sem álcool preparado com manga, limão, água com gás e um toque de hortelã fresca. Refrescante, levemente cítrico e com uma apresentação sofisticada.",
+      "image": "/img/RoyalMango.png",
+      "price": 16.99,
+      "category": "Bebidas"
     }
   ]
 }
