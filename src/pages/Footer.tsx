@@ -1,5 +1,6 @@
 import { ChefHat } from 'lucide-react';
 import { FaXTwitter, FaFacebook, FaInstagram } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -28,9 +29,9 @@ const Footer = () => {
                 </div>
                 <div>
                     <h4 className="text-sm font-bold uppercase tracking-wider text-primary">Sobre</h4>
-                    <ul className="mt-4 space-y-2 text-sm text-white/70">
-                        <li><a href="#menu" className="hover:text-primary">Produtos</a></li>
-                        <li><a href="#contact" className="hover:text-primary">Combos</a></li>
+                    <ul className=" flex flex-col mt-4 space-y-2 text-sm text-white/70">
+                        <Link to="/products" className="hover:text-primary">Produtos</Link>
+                        <Link to="/contact" className="hover:text-primary">Contato</Link>
                     </ul>
                 </div>
                 <div>

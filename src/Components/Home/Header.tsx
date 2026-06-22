@@ -26,7 +26,7 @@ const Header = () => {
 
         { name: 'Home', href: '/' },
         { name: 'Produtos', href: '/products' },
-        { name: 'Combos', href: '/combos' },
+        { name: 'Contato', href: '/contact' },
     ];
 
     return (
@@ -72,7 +72,7 @@ const Header = () => {
                     <div className="flex items-center gap-3">
                         <button
                             onClick={openCart}
-                            className="relative rounded-md p-2 text-foreground mr-2 cursor-pointer transition-colors hover:bg-secondary"
+                            className="relative rounded-md p-2 text-foreground mr-2 cursor-pointer transition-colors hover:bg-accent"
                             aria-label="Open cart"
                         >
                             <ShoppingCart className="h-5 w-5" />

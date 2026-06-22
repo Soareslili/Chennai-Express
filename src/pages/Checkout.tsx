@@ -87,10 +87,10 @@ const CheckoutModal = () => {
               <CheckCircle className="w-8 h-8 text-primary" />
             </div>
             <h3 className="text-xl font-semibold text-foreground mb-2">
-              Thank you for your order!
+            Obrigado pelo seu pedido!
             </h3>
             <p className="text-muted-foreground">
-              We'll send you a confirmation email with your order details.
+            Seu pedido foi processado com sucesso. Você receberá um email de confirmação em breve.
             </p>
           </div>
         </DialogContent>
@@ -245,13 +245,13 @@ const CheckoutModal = () => {
             </div>
           </div>
 
-          <a
+          <button
             type="submit"
-            className="w-full inline-flex items-center justify-center rounded-lg px-4 py-3 text-sm font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-50"
+            className="w-full inline-flex items-center justify-center rounded-lg px-4 py-3 text-sm cursor-pointer font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-50"
             style={{ backgroundColor: "#FF6B6B", color: "#FFFFFF" }}
           >
-            {isSubmitting ? "Processing..." : `Pay $${totalPrice}`}
-          </a>
+            {isSubmitting ? "Processando..." : `Pay $${totalPrice}`}
+          </button>
         </form>
       </DialogContent>
     </Dialog>

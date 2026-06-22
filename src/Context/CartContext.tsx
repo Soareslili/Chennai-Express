@@ -8,7 +8,7 @@ export interface CartItem {
   quantity: number;
 }
 
-export interface CartContextType {
+export interface CartContextType { 
     items: CartItem[];
     isCartOpen: boolean;
     isCheckoutOpen: boolean;

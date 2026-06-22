@@ -5,8 +5,10 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
   const [items, setItems] = useState<CartItem[]>([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
+ 
 
   const addItem = useCallback((newItem: Omit<CartItem, "quantity">) => {
+    
     setItems((prevItems) => {
       const existingItem = prevItems.find((item) => item.id === newItem.id);
       if (existingItem) {
@@ -16,7 +18,7 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
             : item
         );
       }
-      return [...prevItems, { ...newItem, quantity: 1 }];
+      return [...prevItems, { ...newItem, quantity: 1 }]; 
     });
     setIsCartOpen(true);
   }, []);
@@ -41,6 +43,8 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
     [removeItem]
   );
 
+
+
   const clearCart = useCallback(() => setItems([]), []);
   const openCart = useCallback(() => setIsCartOpen(true), []);
   const closeCart = useCallback(() => setIsCartOpen(false), []);
@@ -51,7 +55,10 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
   const closeCheckout = useCallback(() => setIsCheckoutOpen(false), []);
 
   const totalItems = items.reduce((sum, item) => sum + item.quantity, 0);
-  const totalPrice = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  const totalPrice = parseFloat(
+  items.reduce((sum, item) => sum + item.price * item.quantity, 0).toFixed(2)
+);
+
 
   return (
     <CartContext.Provider

@@ -49,7 +49,7 @@ export function Products({ products, onProductClick, showViewAll = false }: Prod
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {displayed.map((product, index) => (
             <div
-              key={product.id}
+              key={product.productId}
               className="group flex flex-col overflow-hidden rounded-xl border border-gray-300 bg-card p-4 transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-xl cursor-pointer"
               style={{ animationDelay: `${index * 80}ms` }}
               onClick={() => onProductClick(product)}
@@ -93,7 +93,7 @@ export function Products({ products, onProductClick, showViewAll = false }: Prod
                   onClick={(e) => {
                     e.stopPropagation();
                     addItem({
-                      id: String(product.id),
+                      id: String(product.productId),
                       name: product.name,
                       price: product.price,
                       image: product.image ?? "",

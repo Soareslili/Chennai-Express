@@ -22,7 +22,7 @@ const CartSheet = () => {
   } = useCart();
 
   return (
-    <Sheet  open={isCartOpen} onOpenChange={closeCart}>
+    <Sheet open={isCartOpen} onOpenChange={closeCart}>
       <SheetContent id="cart" className=" bg-background flex flex-col w-full sm:max-w-lg">
         <SheetHeader>
           <SheetTitle className="flex items-center text-accent-foreground gap-2">
@@ -30,7 +30,7 @@ const CartSheet = () => {
             Carrinho de compras ({totalItems})
           </SheetTitle>
           <SheetDescription>
-           Revise seus itens antes de finalizar a compra
+            Revise seus itens antes de finalizar a compra
           </SheetDescription>
         </SheetHeader>
 
@@ -93,7 +93,7 @@ const CartSheet = () => {
                   </div>
                   <div className="text-right">
                     <span className="font-semibold text-foreground">
-                      ${item.price * item.quantity}
+                      R$ {(item.price * item.quantity).toLocaleString("pt-BR", { minimumFractionDigits: 2 })}
                     </span>
                   </div>
                 </div>
@@ -104,16 +104,16 @@ const CartSheet = () => {
               <div className="flex justify-between items-center">
                 <span className="text-accent-foreground text-bold text-2xl">Subtotal</span>
                 <span className="font-semibold text-lg text-accent-foreground">
-                  ${totalPrice}
+                  R$ {totalPrice.toLocaleString("pt-BR", { minimumFractionDigits: 2 })}
                 </span>
               </div>
               <p className="text-xs text-accent-foreground/70">
-               Frete e impostos calculados na finalização da compra
+                Frete e impostos calculados na finalização da compra
               </p>
               <a
                 onClick={openCheckout}
                 className="w-full px-20 py-2 bg-primary rounded-full text-accent-foreground cursor-pointer font-medium mt-8"
-                
+
               >
                 Finalizar Compra
               </a>
