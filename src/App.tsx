@@ -44,10 +44,9 @@ function App() {
             <Route path="/" element={
               <>
                 <Hero />
-                <Products products={products} showViewAll={false} />
+                <Products products={products} onProductClick={handleProductClick} showViewAll={false} />
                 <Combos />
                 <Packeges />
-
 
               </>
             }

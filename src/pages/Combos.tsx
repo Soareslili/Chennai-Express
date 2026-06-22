@@ -1,4 +1,4 @@
-import { CheckCircle2, Flame, Users, PartyPopper, Sparkles, ArrowLeft, Percent, Gift } from "lucide-react";
+import { CheckCircle2, Flame, PartyPopper, Sparkles, ArrowLeft, Percent, Gift } from "lucide-react";
 
 const combos = [
   {

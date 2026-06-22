@@ -13,7 +13,7 @@ const CATEGORIES = [ "Entradas", "Massas", "Prato Principal", "Sobremesas", "Beb
 
 export function Products({ products, onProductClick, showViewAll = false }: ProductProps) {
   const { addItem } = useCart();
-  const [activeCategory, setActiveCategory] = useState();
+ const [activeCategory, setActiveCategory] = useState<string | undefined>(undefined);
 
   const filtered =
     activeCategory === undefined
